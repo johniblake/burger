@@ -1,0 +1,93 @@
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  justify-self: center;
+}
+
+.burger-container {
+  background-color: dodgerblue;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+.eaten-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.uneaten-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.devoured-burgers {
+  max-height: 250px;
+  overflow: scroll;
+}
+
+.undevoured-burgers {
+  max-height: 250px;
+  overflow: scroll;
+}
+
+.burgers-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  margin: 20px;
+}
+
+.create-form {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+#burger-name {
+  width: 100%;
+  border-radius: 5px 0px 0px 5px;
+  border: 1px solid gray;
+  border-right: 0px;
+  font-size: 1.5rem;
+  padding: 0.5rem;
+}
+
+#burger-submit {
+  border-radius: 0px 5px 5px 0px;
+  border: 1px solid rgb(16, 110, 203);
+  border-left: 0px;
+  background-color: dodgerblue;
+  color: white;
+}
+
+#burger-pic {
+  height: 50px;
+  margin: 5px;
+}
+
+#logo-header {
+  font-size: 2rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
