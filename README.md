@@ -9,3 +9,5 @@
 3. You will see the burgers that have been eaten dissappear from the list of uneaten burgers and appear in the `burger graveyard`.
 
    > That's basically it. Not very exciting, I know, but this app was good practice for building full-stack web apps using only `Express, MySQL, and Handlebars`.
+
+**Check out the deployed app [here](https://lit-temple-86270.herokuapp.com/).**
